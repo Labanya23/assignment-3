@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Natures Platter</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css"rel="stylesheet"type="text/css"/>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -16,6 +17,8 @@
           },
         }
       </script>
+      <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="crossorigin="anonymous"referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
@@ -34,20 +37,13 @@
           <div class="navbar-start">
             <img src="assets/logo-header.png" alt="">
           </div>
-          <div class="navbar-center hidden lg:flex ">
+          <div class="navbar-center hidden lg:flex text-[#111111] font-normal ">
           <ul class="menu menu-horizontal font-medium px-1">
-            <li>
-              <a class="text-[#111111] hover:text-[#179800]font-normal 
-              font-[400]"href="#">Products</a>
-            </li>
-            <li>
-              <a class="text-[#111111] hover:text-[#179800]font-normal 
-              font-[400]"href="#">Services</a>
-            </li>
-            <li>
-              <a class="text-[#111111] hover:text-[#179800]font-normal 
-              font-[400]"href="#">Contact Us</a>
-            </li>
+           
+            <li><a class="font-medium">Product</a></li>
+            <li><a class="font-medium">Services</a></li>
+            <li><a class="font-medium">Contact Us</a></li>
+
             
           </ul>
           </div>
@@ -66,7 +62,69 @@
           </div>
         </div>
       </nav>
+      <section class="mb-20">
+        <div class="text-center mx-auto lg:w-[825px] space-y-4">
+          <h2 class="text-4xl lg:text-5xl font-semibold">Freshness
+            <span class="text-mart-btn-primary">You Can<br>Count</span>On,Prices You'll Love!
+          </h2>
+          <p class="text-base lg:text-xl pb-2 ">Shop your daily essentials atunbeatable prices.From
+          fresh produce to pantrystaples, we’ve got you covered every day!</p>
+
+        </div>
+        <img class="w=[400px]md:w-[700px] h-auto lg:w-auto mx-auto"src="assets/hero-vegetables.png" alt="">
+      </section>
       </header>
+      <main>
+        <section class="container mx-auto mt-24 mb-24">
+          <h1 class="px-4 text-[#179800] font-semibold text-4xl">Services</h1>
+          <div class="mt-12 grid gap-6 px-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-around text-center items-center">
+            <div class="bg-[#EFEBE3] h-[367px] rounded-lg p-5">
+              <div class="flex justify-center p-4">
+                <div class="bg-white rounded-full">
+                  <img class="p-4 h-full w-full mx-auto object-contain" src="assets/service.png"alt="">
+
+                </div>
+              </div>
+              <h3 class="text-[#111111] text-2xl font-semibold mt-3 mb-3">
+                24/7 Services
+              </h3>
+              <p class="text-[#111111] text-xl font-light max-w-[360px] mx-auto">
+                In commerce and industry, 24/7 or 24-7 service is service that 
+              is available at any time 
+              </p>
+            </div>
+            <div class="bg-[#EFEBE3] h-[367px] rounded-lg p-5">
+              <div class="flex justify-center p-4">
+                <div class="bg-white rounded-full">
+                  <img class="p-4 h-full w-full mx-auto object-contain"src="assets/delivery.png"alt="">
+                </div>
+              </div>
+              <h3 class="text-[#111111] text-2xl font-semibold mt-3 mb-3">
+                Fast Delivery
+              </h3>
+              <p class="text-[#111111] text-xl font-light max-w-[360px] mx-auto">
+              Express delivery is the fastest form of shipping. The customer pays an extra shipping cost.
+              </p>
+            </div>
+            <div class="bg-[#EFEBE3] h-[367px] rounded-lg p-5">
+              <div class="flex justify-center p-4">
+                <div class="bg-white rounded-full">
+                  <img class="p-4 h-full mx-auto object-contain" src="assets/healthy.png" alt="">
+
+                  
+                </div>
+              </div>
+              <h3 class="text-[#111111] text-2xl font-semibold mt-3 mb-3">
+                Healthy Products
+              </h3>
+              <p class="text-[#111111] text-xl font-light max-w-[360px] mx-auto">
+                health product means any product that promotes the healthy well 
+              being of an individual .
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
     </body>
 
 </head>
